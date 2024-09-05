@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: ver;
+    src: url("../public/Vermillion22-mLaO2.ttf");
+}
+@font-face {
+    font-family: neo;
+    src: url("../public/NeueMachina-Regular.otf");
+}
+
+html,body,#root{
+    width: 100%;
+    height: 100%;
+    font-family: neo;
+}
+h1{
+    font-family: ver;
+}
+#root{
+    position: fixed;
+    background-color: black;
+}
+
+Canvas::-webkit-scrollbar{
+    display: none;
+}
